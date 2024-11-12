@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Biodata</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        
+        header {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 5px 10px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #333;
+            background-color: #007BFF;
+            text-decoration: underline;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        
+        section#biodata {
+            margin-top: 20px;
+        }
+        section#biodata h2 {
+            color: #333;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        p, ul {
+            margin: 10px 0;
+        }
+        ul li {
+            list-style-type: none;
+            padding-left: 15px;
+            position: relative;
+        }
+        ul li::before {
+            content: "•";
+            color: #007BFF;
+            position: absolute;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Biodata</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="resume.html">Resume</a>
+            <a href="biodata.html">Biodata</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <section id="biodata">
+                <h2>Personal Information</h2>
+                <p><strong>Name:</strong> Varun M Nayak</p>
+                <p><strong>Date of Birth:</strong> 28 February 2004</p>
+                <p><strong>Gender:</strong> Male</p>
+                <p><strong>Phone:</strong> <a href="tel:+919483804327">+91 9483804327</a></p>
+                <p><strong>Email:</strong> <a href="mailto:varunk2802@gmail.com">varunk2802@gmail.com</a></p>
+                <p><strong>Address:</strong> KodiMonadka House, Kodimbady Post & Village, Puttur Taluk, Dakshina Kannada, Karnataka, India - 574325</p>
+                <p><strong>Nationality:</strong> Indian</p>
+                
+                <h2>Hobbies</h2>
+                <ul>
+                    <li>Playing</li>
+                    <li>Traveling</li>
+                    <li>Surfing the internet</li>
+                    <li>Knowing Current Activities</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <a href="mailto:varunk2802@gmail.com" target="_blank" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BIqO1Iq57Qp6%2B4%2BsktQm3pA%3D%3D" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/varunmnayak" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </footer>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="script.js"></script>
+</body>
+</html>

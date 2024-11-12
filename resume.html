@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Resume</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+            .container {
+                width: 80%;
+                max-width: 800px;
+                margin: 20px auto;
+                background-color: #fff;
+                padding: 20px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            
+            header {
+                text-align: center;
+                padding: 10px;
+                background-color: #333;
+                color: #fff;
+            }
+            header h1 {
+                margin: 0;
+            }
+            nav a {
+                color: #fff;
+                text-decoration: none;
+                margin: 0 10px;
+                padding: 5px 10px;
+                transition: color 0.3s, background-color 0.3s;
+            }
+            
+            nav a:hover {
+                color: #333;
+                background-color: #007BFF; 
+                text-decoration: underline;
+                cursor: pointer;
+                border-radius: 5px; 
+            }
+
+            
+            .section {
+                margin-bottom: 20px;
+            }
+            .section-title {
+                color: #333;
+                border-bottom: 2px solid #007BFF;
+                padding-bottom: 5px;
+                margin-bottom: 10px;
+                font-size: 1.25em;
+            }
+
+            
+            ul {
+                list-style-type: none;
+                padding: 0;
+            }
+            ul li {
+                margin: 5px 0;
+                padding-left: 15px;
+                position: relative;
+            }
+            ul li::before {
+                content: "•";
+                color: #007BFF;
+                position: absolute;
+                left: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>My Resume</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="resume.html">Resume</a>
+                <a href="biodata.html">Biodata</a>
+            </nav>
+        </header>
+        
+        <div class="container">
+            <h1>Varun M Nayak</h1>
+            
+            <div class="section">
+                <h2 class="section-title">Education</h2>
+                <ul>
+                    <li><strong>B.E -</strong> Vivekananda College of Engineering & Technology, Puttur</li>
+                    <li><strong>PUC -</strong> Vivekananda Pre-University College, Puttur <br> Percentage: 80%</li>
+                    <li><strong>SSLC -</strong> Vivekananda English Medium School, Tenkila, Puttur <br> Percentage: 94%</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>C Programming</li>
+                    <li>C++ Programming</li>
+                    <li>Java Programming</li>
+                    <li>Python Programming</li>
+                    <li>HTML</li>
+                    <li>SQL</li>
+                    <li>Team discussion</li>
+                    <li>Communication</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Certifications</h2>
+                <ul>
+                    <li>Database and SQL</li>
+                    <li>Introduction to Cloud Computing</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Languages</h2>
+                <ul>
+                    <li>English</li>
+                    <li>Kannada</li>
+                    <li>Hindi</li>
+                    <li>Konkani</li>
+                    <li>Tulu</li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <a href="mailto:varunk2802@gmail.com" target="_blank" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BIqO1Iq57Qp6%2B4%2BsktQm3pA%3D%3D" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/varunmnayak" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </footer>
+        
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <script src="script.js"></script>
+    </body>
+</html>
